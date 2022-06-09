@@ -11,6 +11,9 @@
     <!-- ===== BOXICONS STYLES =====-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+<!-- ===== SWIPER STYLES =====-->
+<link rel="stylesheet" href="assets/styles/swiper-bundle.min.css">
+
     <!-- ===== STYLES =====-->
     <link rel="stylesheet" href="assets/styles/index.css">
 
@@ -125,16 +128,124 @@
         </section>
 
         <!-- ===== LOGOS =====-->
-        <section class="logos section"></section>
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="assets/images/logo1.png" alt="" />
+                </div>
+                <div class="logos__img">
+                    <img src="assets/images/logo2.png" alt="" />
+                </div>
+                <div class="logos__img">
+                    <img src="assets/images/logo3.png" alt="" />
+                </div>
+                <div class="logos__img">
+                    <img src="assets/images/logo4.png" alt="" />
+                </div>
+            </div>
+        </section>
 
         <!-- ===== POPULAR =====-->
-        <section class="popular section" id="popular"></section>
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Best Choise</span>
+                <h2 class="section__title">
+                    Popular Residences <span>.</span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img 
+                            src="assets/images/popular1.jpeg" 
+                            class="popular__img"
+                            >
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>66,358
+                                </h2>
+                                <h3 class="popular__title">
+                                    Garden City Assat
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City Of Miraflores,
+                                    Lima - Peru Av. Sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/images/popular2.jpeg" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>72,800
+                                </h2>
+                                <h3 class="popular__title">
+                                    Gables Luxurious House
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City Of Miraflores,
+                                    Lima - Peru Av. Sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/images/popular3.jpeg" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>53,350
+                                </h2>
+                                <h3 class="popular__title">
+                                     Luxurious City Garden
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City Of Miraflores,
+                                    Lima - Peru Av. Sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/images/popular4.jpeg" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>68,588
+                                </h2>
+                                <h3 class="popular__title">
+                                    Aliva Private Garden
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City Of Miraflores,
+                                    Lima - Peru Av. Sol #9876
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="swiper-button-next">
+                        <i class="bx bx-chevron-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="bx bx-chevron-left"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <!-- ===== FOOTER =====-->
     <footer class="footer section"></footer>
     
+    <!-- ===== SWIPER SCRIPT =====-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
     <!-- ===== MAIN SCRIPT =====-->
     <script src="assets/js/index.js"></script>
 </body>
